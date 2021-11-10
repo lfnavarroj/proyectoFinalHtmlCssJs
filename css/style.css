@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 40px;
+}
+#pantalla{
+    display: flex;
+    margin-left: 40px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#teclado{
+    display: flex;
+    margin-left: 40px;
+    border: 2px solid red;
+    height: 220px;
+    width: 400px;
+    border-radius: 5px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#numeros{
+    border: 2px solid blue;
+    width: 165px;
+    height: 195px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btnNumero{
+    margin:5px;
+    width: 40px;
+}
+
+#opciones{
+    border: 2px solid black;
+    width: 115px;
+    height: 195px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btnOpciones{
+    width: 100px;
+    margin: 5px;
+}
+
+
+

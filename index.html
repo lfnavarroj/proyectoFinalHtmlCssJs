@@ -11,7 +11,35 @@
 <body>
 
     <header><h1>Bievenido al Cajero X</h1></header>
-    <main></main>
+    <main>
+        <div id="pantalla">
+            <input class="centro" id="texto" type="text" placeholder="INTRODUCE EL ID USUARIO">
+        </div>
+        <div id="teclado">
+            <div id="numeros">
+
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="uno" value="1">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="dos" value="2">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="tres" value="3">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="cuatro" value="4">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="cinco" value="5">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="seis" value="6">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="siete" value="7">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="ocho" value="8">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="nueve" value="9">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="menos" value="-">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="cero" value="0">
+                <input type="button" onclick="imprimirCar(this)" class="btnNumero btn btn-outline-primary" id="mas" value="+">
+            </div>
+            <div id="opciones">
+                <button class="btnOpciones btn btn-danger" id="cancelar">Cancelar</button>
+                <button class="btnOpciones btn btn-warning" id="corregir">Corregir</button>
+                <button class="btnOpciones btn btn-success" id="confirmar">Confirmar</button>
+                <button class="btnOpciones btn btn-outline-dark" id="blanco">o</button>
+            </div>
+
+        </div>
+    </main>
     <footer></footer>
 
 
