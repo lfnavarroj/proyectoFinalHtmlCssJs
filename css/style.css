@@ -6,6 +6,7 @@
 header{
     margin: 40px;
 }
+
 #pantalla{
     display: flex;
     margin-left: 40px;
@@ -17,6 +18,11 @@ header{
     justify-content: center;
     align-items: center;
     
+}
+
+.centro{
+    width: 398px;
+    text-align: center;
 }
 
 #teclado{
@@ -57,5 +63,17 @@ header{
     margin: 5px;
 }
 
+.OpcionOper{
 
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
 
+}
+
+#OpcionOperaciones{
+
+    display: none;
+    
+}

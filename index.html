@@ -14,6 +14,11 @@
     <main>
         <div id="pantalla">
             <input class="centro" id="texto" type="text" placeholder="INTRODUCE EL ID USUARIO">
+
+            <div id="OpcionOperaciones">
+                <p id="con" class=" OpcionOper">1. Consultar</p>
+                <p id="ret" class="ret OpcionOper">2. Retirar</p>
+            </div> 
         </div>
         <div id="teclado">
             <div id="numeros">
@@ -33,14 +38,16 @@
             </div>
             <div id="opciones">
                 <button class="btnOpciones btn btn-danger" id="cancelar">Cancelar</button>
-                <button class="btnOpciones btn btn-warning" id="corregir">Corregir</button>
-                <button class="btnOpciones btn btn-success" id="confirmar">Confirmar</button>
-                <button class="btnOpciones btn btn-outline-dark" id="blanco">o</button>
+                <button onclick="corregir()" class="btnOpciones btn btn-warning" id="corregir">Corregir</button>
+                <button onclick="operacionBotonConfirmar()" class="btnOpciones btn btn-success" id="confirmar">Confirmar</button>
+                <button onclick="iniciarSesion()" class="btnOpciones btn btn-outline-dark" id="blanco">o</button>
             </div>
 
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <button onclick="iniciarSesion()">Aqui</button>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
